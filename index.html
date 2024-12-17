@@ -2,8 +2,48 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>从“新”出发 数说中国新能源汽车出海之路</title>
+  <title></title>
   <style>
+  
+  @media all and(max-width:600px){
+									nav{
+									height:40px;
+									background-color:hotpink;
+									font-size:14px;
+									line-height:40px;
+		}}
+		/*宽度在600和800之间执行样式*/
+		@media only screen and(min-width:600px)and(max-width:800px){
+				nav{
+				height: 60px;
+				background-color:purple;
+				font-size:25px;
+				line-height:60px;
+				}}
+				
+				
+				/**宽度在800-1200之间执行的样式*/
+				@media only screen and(min-width:800px)and(max-width:800px){
+				nav{
+				height:60px;
+				background-color:purple;
+				font-size:25px;
+				line-height:60px;
+					}}	
+					nav{
+						margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 1450px; /* 固定宽度 */
+  height: auto; /* 固定高度 */
+  overflow: auto; /* 允许在固定大小下滚动内容 */
+ overflow-x: hidden; /* 禁用横向滚动条 */
+margin: 0 auto; /* 使盒子水平居中 */
+					}
+ 
     body {
   margin: 0;
   padding: 0;
@@ -17,6 +57,7 @@
  overflow-x: hidden; /* 禁用横向滚动条 */
 margin: 0 auto; /* 使盒子水平居中 */
 }
+
 
 
     @font-face {
@@ -489,7 +530,7 @@ margin: 0 auto; /* 使盒子水平居中 */
   </style>
 </head>
 <body>
-	
+	<nav>
 	<div class="box15">
 		<ul class="box5">  <!--导航栏-->
 		<li>
@@ -1106,17 +1147,9 @@ function toggleDetails(id) {
   		</br>
   		<p>本作品所用图像来源于原创设计与网络资料</p>
   		
-  		<p>内容来源：</p>
-  		<p>国家统计局</p>
-  		<p>中华人民共和国商务部官网 </p>
-  			<p>中国海关总署官网 </p>
-  			<p>2024年政府工作报告 </p>
-  			<p>国务院《新能源汽车产业发展规划（2021—2035）》 </p>
-  			<p>各车企财报 </p>
-  			<p>欧盟委员会官网 </p>
-  			<p>中国乘联会公众号 </p>
+  		
   			
   	</div>
-  	
+  	</nav>
 </body>
 </html>
